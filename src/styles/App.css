@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Kanban Board styles */
+div {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+/* Ticket Card styles */
+div[style] {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #555;
+  margin: 8px 0;
+}
